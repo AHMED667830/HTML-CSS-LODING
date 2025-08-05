@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f2ebe3;
+
+}
+
+:root {
+    --min-padding: 10px;
+}
+
+.cont {
+
+    display: flex;
+    position: absolute;
+    content: '';
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    margin: auto;
+    overflow: hidden;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+@media (max-width:600px) {
+    .cont {
+        flex-direction: column;
+        width: 381px;
+        margin: auto;
+
+    }
+
+    .cont .img {
+
+        background-image: url(../images/image-product-mobile.jpg);
+        background-size: cover;
+    }
+
+    .cont img {
+        display: none;
+        ;
+    }
+
+    .cont .text span::before {
+        top: 86% !important;
+        right: 105px !important;
+
+    }
+
+    .cont .text button {
+        margin: 10px auto !important;
+    }
+}
+
+.cont .img {
+    height: 450px;
+}
+
+.cont img {
+    height: 450px;
+    object-fit: cover;
+}
+
+.cont .text {
+    padding-left: 20px;
+}
+
+.cont .text .log {
+
+    padding: 20px 0 9px 10px;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    letter-spacing: 5px;
+}
+
+.cont .text h1 {
+    padding: var(--min-padding);
+    font-family: "Libre Baskerville", serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 36px;
+}
+
+.cont .text p {
+    padding: var(--min-padding);
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    color: #777;
+}
+
+.cont .text span {
+    padding: 9px 27px;
+    display: block;
+    font-family: "Libre Baskerville", serif;
+    font-size: 38px;
+    color: #3D8168;
+}
+
+.cont .text span::before {
+    content: '$169.99';
+    position: absolute;
+    font-size: 15px;
+    top: 68%;
+    right: 41px;
+    color: #777;
+    text-decoration: line-through;
+}
+
+.cont .text button {
+    margin: 0 9px;
+    display: block;
+    padding: 16px 69px;
+    background-color: #3D8168;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    text-transform: capitalize;
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+.cont .text button i{
+
+    padding: 0 10px;
+}
