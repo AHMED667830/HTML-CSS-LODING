@@ -4,7 +4,7 @@ A simple and modern loading screen built using pure **HTML** and **CSS** — wit
 This project demonstrates how to create a custom preloader animation that can be used before the main content of a website loads.
 
 ## 🔗 Live Preview
-[Click here to view the loading page](YOUR_LIVE_LINK_HERE)
+[Click here to view the loading page]([YOUR_LIVE_LINK_HERE](https://ahmed667830.github.io/HTML-CSS-LODING/)
 
 ## ✅ Features
 - Fully responsive loading screen
