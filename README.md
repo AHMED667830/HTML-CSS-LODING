@@ -1,4 +1,4 @@
-# HTML-CSS-Loading-Page
+# HTML-CSS-Product page
 
 A simple and modern loading screen built using pure **HTML** and **CSS** — with smooth animations and a clean UI.  
 This project demonstrates how to create a custom preloader animation that can be used before the main content of a website loads.
